@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import Form from './components/Form';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="App">
+      <h1 className="heading">BookList Maintenance Form</h1>
+      <h3 className="small">Add and view your books using local storage</h3>
+
+  <div className="form1">
+    <form className="in">
+    Title <br/><input className="" /> <br/>  
+    Author <br/><input className="" />   <br/> 
+    ISBN# <br/><input className="" />   <br/> 
+    <button type="button" class="btn btn-success">Add Books</button>
+    </form>
+
+    
+  </div>
+  {/* <div className="div2">No books are added yet</div> */}
+    </section>
   );
 }
 

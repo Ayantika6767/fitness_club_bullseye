@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
+.App{
+  background-image: url('https://img.freepik.com/premium-photo/chair-with-books-background-bookshelves-library-background_105428-3837.jpg?w=1380');
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh);
+  position: relative;
+  color: white;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading{
+ margin-left: 600px;
+ display: inline;
+ justify-content: center;
 }
+.small{
+  color: aqua;
+  margin-left: 620px;
+  font-size: smaller;
+  
+}
+.form1{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(198, 196, 192);
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  display: flex;
+  transform: translate(30%,30%);
+
+}
+.in{
+  color: black;
+  margin-left: 4px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
